@@ -1,8 +1,4 @@
-print("!! DEBUG: Script is starting...")
-
 from src.connection import get_ib
-
-print("!! DEBUG: Imports successful...")
 
 def show_portfolio_stats():
     ib = get_ib(client_id=2)  # Use a different unique client ID for stats
